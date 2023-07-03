@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Git Command List</title>
+    <style>
+        li{
+            font-size: 12pt;
+            text-decoration: underline;
+            line-height: 25px;
+            /* font-weight: bold; */
+        }
+        p{
+            font-size: 10pt;
+            line-height: auto;
+            background-color: rgb(241, 241, 176);
+            display: inline;
+        }
+        span{
+            background-color: rgb(208, 208, 114);
+            padding: 10px;
+            font-size: 40px;
+            display: block;
+        }
+        hr{
+            border: 2px solid rgb(185, 181, 181);
+        }
+    </style>
+</head>
+<body>
+    <span><i><b>Git Command List</b></i></span><br>
+    <i><b>Created by Muhammad Ejaz Nawaz Attari Madani</b></i>
+    <hr>
+    <ol>
+        <li>For Folder Initialise</li>
+        <p>git init</p>
+
+        <li>For Cloning folder or Project from Github</li>
+        <p>git clone (folder url like https://username.github/project)</p>
+
+        <li>For Config User Name</li>
+        <p>git config user.name "Username"</p>
+
+        <li>For Config Global User Name</li>
+        <p>git config --global user.name "Username"</p>
+
+        <li>For Config Email</li>
+        <p>git config user.email "email@email.com"</p>
+
+        <li>For Config Global User Name</li>
+        <p>git config --global user.email "email@email.com"</p>
+
+        <li>For Automatic Coloring for Git Command Line</li>
+        <p>git config --global color.ui auto</p>
+
+        <li>For Showing Config List</li>
+        <p>git config --list</p>
+        
+        <li>For Looking Status</li>
+        <p>git status</p>
+
+        <li>For Clear Screen of Git Bash</li>
+        <p>clear</p>
+
+        <li>For Git Help</li>
+        <p>git help</p>
+
+        <li>For Tacking and Adding Files on Stage Area</li>
+        <p>git add index.html</p>
+        <p>git add --a (for all files)</p>
+        <p>git add -A (for all files)</p>
+
+        <li>For Untrack files from Stage Aria after Adding Modified Files</li>
+        <p>git restore --staged filename</p>
+
+        <li>For Unstaging File</li>
+        <p>git reset index.html</p>
+        <p>git reset . (for unstaging all files)</p>
+
+        <li>For Commit Staged Files</li>
+        <p>git commit -m "message"</p>
+
+        <li>For Direct Commit unstaged Files after Modified</li>
+        <p>git commit -a -m "message"</p>
+
+        <li>For Restore last commited Files after mistake modifing</li>
+        <p>git restore filnename</p>
+        <p>git checkout filename</p>
+
+        <li>For restore all files and directories commited after mistake modifing</li>
+        <p>git checkout -f</p>
+
+        <li>For Add all changes made to tracked files & Commit</li>
+        <p>git commit -am "message"</p>
+
+        <li>For All Commit History</li>
+        <p>git log</p>
+
+        <li>For Push Commited files on Github Repositry</li>
+        <p>git push -u origin main</p>
+
+        <li>For Show Branch List</li>
+        <p>git branch</p>
+
+        <li>For Create New Branch</li>
+        <p>git branch branchname</p>
+
+        <li>Fot Switch to branch</li>
+        <p>git checkout branchname</p>
+
+        <li>For Create new branch and switch to it</li>
+        <p>git checkout -b newbranchname</p>
+
+        <li>For Marge Brances to Master Branch</li>
+        <p>git merge branchname (Yous must Commit after one branch mrger before second branch)</p>
+
+        <li>Delete a merged branch</li>
+        <p>git branch -d branchname</p>
+
+        <li>For Delete Branch</li>
+        <p>git branch -D branchname</p>
+
+        <li>For Push Branch to Github</li>
+        <p>git push origin branchname (Always push final data on master branch)</p>
+
+        <li>For Pull data from branch on github</li>
+        <p>git pull origin branchname</p>
+
+        <li>For Show Changes of two Commited files Crrunt working Directory and staged</li>
+        <p>git diff</p>
+
+        <li>For Show Changes of First Commit and last Staged Data</li>
+        <p>git diff --staged</p>
+
+        <li>Show Changes between two commit files</li>
+        <p>git diff commit1_ID commit2_ID</p>
+
+        <li>For File rename and add in stage</li>
+        <p>git mv oldfilename newfilename</p>
+
+        <li>For Delete File and commit to stage</li>
+        <p>git rm filename</p>
+
+        <li>For Remove Chashe of any file from git</li>
+        <p>git rm --cached filename</p>
+
+        <li>For Push Computer Commited Files to github Repositry</li>
+        <p>git remote add origin (github folder url)</p>
+
+    </ol>
+    <p></p>
+</body>
+</html>
